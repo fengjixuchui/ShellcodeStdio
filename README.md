@@ -1,5 +1,5 @@
 ### ShellcodeStdio
-An extensible framework for easily writing debuggable, compiler optimized, position independent, x86 shellcode for windows platforms.
+An extensible framework for easily writing debuggable, compiler optimized, position independent, x86/x64 shellcode for windows platforms.
 
 For basic usage see main.cpp
 
@@ -42,5 +42,5 @@ ExitThread(0);
 * If you wish to add a function you must keep it between the MalCodeBegin and MalCodeEnd markers. 
 * Don't forget to call the ScStdio::MalCode() at some point, otherwise when compiling in release with the suggested switches, the code will optimized away.
 
-ShellcodeStdio @ winternl.com (Jack Ullrich)
+ShellcodeStdio @ winternl.com
 Credit for cool macros: reddit.com/user/good_nickname
